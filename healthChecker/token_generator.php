@@ -21,13 +21,13 @@
     class TokenGenerator
     {
         private $authServiceUrl = 'https://authservice.priaid.ch'; 
-		private $username = 'a6NXo_GMAIL_COM_AUT';
-		private $password = 'o2KEb94YiWw83Dyq5';
+		private $username = 'Cg73K_GMAIL_COM_AUT';
+		private $password = 'j9H5SkGw3t8JZp62M';
         
         # constructor
-        function __construct($username, $pasword, $authServiceUrl) {
+        function __construct($username, $password, $authServiceUrl) {
             $this->username = $username;
-            $this->password = $pasword;
+            $this->password = $password;
             $this->authServiceUrl = $authServiceUrl;
         }
         
@@ -39,7 +39,7 @@
         # <param name="$authServiceUrl">priaid login url (https://authservice.priaid.ch/login)</param>
         # <returns>Returns deserialized token object. It has 2 properties: 'Token' and 'ValidThrough'</returns>
 		public function loadToken()
-		{
+		{ $secretKey = 'j9H5SkGw3t8JZp62M';
 			$computedHash = base64_encode(hash_hmac ( 'md5' , $this->authServiceUrl , $this->password, true ));
 			$authorization = 'Authorization: Bearer '.$this->username.':'.$computedHash;
 			

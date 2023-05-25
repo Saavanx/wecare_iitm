@@ -26,7 +26,7 @@
 	if ( !isset( $_SESSION['userToken']) || !isset( $_SESSION['tokenExpireTime']) || time() >= $_SESSION['tokenExpireTime'] )
 	{
 		require 'token_generator.php';
-		$tokenGenerator = new TokenGenerator("a6NXo_GMAIL_COM_AUT","o2KEb94YiWw83Dyq5","https://authservice.priaid.ch/login");
+		$tokenGenerator = new TokenGenerator("Cg73K_GMAIL_COM_AUT","j9H5SkGw3t8JZp62M","https://authservice.priaid.ch/login");
 		$token = $tokenGenerator->loadToken();
 		$_SESSION['userToken'] = $token->{'Token'};
 		$_SESSION['tokenExpireTime'] = time() + $token->{'ValidThrough'};
