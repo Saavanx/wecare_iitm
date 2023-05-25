@@ -81,20 +81,11 @@
         <div class="row justify-content-end">
             <div class="col-12 col-lg-5">
                 <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
-                    <strong style="font-family: 'Gloock', serif;">WeCare</strong>
+                    <strong style="font-family: 'Gloock' color: #000000 text-shadow:1px 1px 1px black, serif;">WeCare is a platform for your complete health and well-being</strong>
                 </h1>
                 <p class="mbr-text mbr-fonts-style display-7">
-                 <b>WeCare</b> is a platform for your complete health and well-being
-                 which is available both in web and android versions.
-                 The website offers people better access to healthcare support
-                 beyond their bounds of convenience and connects them to doctor
-                 , specialists and healthcare experts on a digital platform,
-                 which provides them access to an online expert without a
-                 physical visit. For doctors, it includes a feature to view
-                 -track the medical record of the patient regularly and
-                 efficiently.
-
-It also has a series of AI tools that assist the doctors in determining the probabilities of diseases like Breast Cancer etc. It also has a dedicated dashboard which keeps track of medical history of the patients.
+                 <b></b>
+                 
                 </p>
                 <div class="mbr-section-btn mt-3">
                     <a class="btn btn-white display-4" href="#image1-m">Explore</a>
@@ -109,7 +100,7 @@ It also has a series of AI tools that assist the doctors in determining the prob
         <div class="row align-items-center">
             <div class="col-12 col-lg-5">
                 <div class="image-wrapper">
-                    <img src="assets/images/f-880x878.jpg" alt="We're in this together">
+                    <img src="assets/image/3464737646_A retro computer used as a conference consultation_xl-beta-v2-2-2 (1).png" alt="We're in this together">
                     
                 </div>
             </div>
@@ -119,13 +110,19 @@ It also has a series of AI tools that assist the doctors in determining the prob
                         <strong style="font-family: 'Dancing Script', cursive; color:#ea0faa";>About Us</strong>
                     </h3>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Our goal is to spread quality health services across the world, such that we may attain the best possible level of health, 
-                        both mentally and physically. This is accomplished by our all-in-one health platform, which provide users an array of tools
-                        to ease them andprovide access to doctors. It also leverages AI to assist doctors in detecting and diagnose certain health issues.
+                       The website offers people better access to healthcare support
+                 beyond their bounds of convenience and connects them to doctor
+                 , specialists and healthcare experts on a digital platform,
+                 which provides them access to an online expert without a
+                 physical visit. For doctors, it includes a feature to view
+                 -track the medical record of the patient regularly and
+                 efficiently.
+
+It also has a series of AI tools that assist the doctors in determining the probabilities of diseases like Breast Cancer etc. It also has a dedicated dashboard which keeps track of medical history of the patients.
                     </p>
                     <br/>
                     <p class="mbr-text mbr-fonts-style display-7">
-                        Thrive is a comprehensive Medical Consultation System which is available both in web and android versions. May it be a pandemic or 
+                        May it be a pandemic or 
                         the problem of distance. We strive to may the necessary help accessible.
                     </p>
                 </div>
@@ -167,8 +164,8 @@ It also has a series of AI tools that assist the doctors in determining the prob
                         <div class="iconfont-wrapper">
                             <span class="mbr-iconfont mobi-mbri-idea mobi-mbri"></span>
                         </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>AI Diagnosis Tools</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">Leveraging the power of AI, we provide AI-enabled diagnosis tools for medical professionals to assist them in predicting health issues like heart diseases and breast cancer.</p>
+                        <h5 class="card-title mbr-fonts-style display-7"><strong> Diagnosis Tools</strong></h5>
+                        <p class="card-text mbr-fonts-style display-7">Leveraging the power of DSS, we provide  diagnosis tools for medical professionals to assist them in predicting health issues.</p>
                     </div>
                 </div>
             </div>

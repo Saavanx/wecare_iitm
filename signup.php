@@ -141,9 +141,11 @@
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" id="password" placeholder="Password" name="password">
                             </div>
-                            <button type="submit" class="btn btn-primary" name="patient" id="patient">Sign Up As Patient</button>
+                            <button type="submit" formaction="https://wecare.sawansingh1.repl.co/videocalling.html" target="_blank" class="btn btn-primary" name="patient" id="patient">Sign Up As Patient</button>
                             OR
-                            <button type="submit" class="btn btn-primary" name="doctor" id="doctor">Sign Up As Doctor</button>
+                            <button type="submit" formaction="/videocalling.html" target="_blank"
+ class="btn btn-primary" name="doctor" id="doctor">Sign Up As Doctor</button>
+                            
                             <div class="form-floating form-field-login" style="text-align:center; margin:15px;">
                                 <a href="login.php">Already a member? Click here to Login.</a>
                             </div>
